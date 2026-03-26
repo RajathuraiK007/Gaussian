@@ -7,11 +7,18 @@ To write a program to find the solution of a matrix using Gaussian Elimination.
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Moodle-Code Runner
 
-## Algorithm
-1. 
-2. 
-3. 
-4. 
+## Algorithm:
+
+1.Input matrix dimensions and initialize augmented matrix and solution vector.
+
+2.Populate the augmented matrix with user inputs.
+
+3.Perform Gaussian elimination to reduce the matrix to upper 
+triangular form, ensuring no division by zero.
+
+4.Back substitute to compute solution values for the variables.
+
+5.Print the solution vector formatted to two decimal places.
 
 ## Program:
 ```
@@ -47,7 +54,9 @@ for i in range(n):
 ```
 
 ## Output:
-![gaussian elimination]()
+
+<img width="1406" height="845" alt="Screenshot 2026-03-26 110845" src="https://github.com/user-attachments/assets/277a6e03-90eb-4ccf-ba95-42909682da2e" />
+
 
 
 ## Result:
